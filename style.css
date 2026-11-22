@@ -224,3 +224,5 @@ html.chapter-paused { overflow: hidden; }
   .laptop-message span { font-size: clamp(4px, 1.3vw, 8px); }
   .laptop-message p { font-size: clamp(5px, 1.5vw, 9px); line-height: 1.18; }
 }
+
+@media (max-width:700px) { .external-arrow { display: none; } }
